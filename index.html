@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       
+
+
+//  Display all students
+
+//  var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+// console.log("All Students:");
+
+
+
+
+// //  Search student
+
+//  var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+// var searchStudent = prompt("Enter student name to search:");
+
+// if (students.indexOf(searchStudent) !== -1) {
+//     console.log(searchStudent + " is found.");
+// } else {
+//     console.log(searchStudent + " is not found.");
+// }
+
+
+// //  Add student
+
+//  var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+// var newStudent = prompt("Enter student name to add:");
+
+// students.push(newStudent);
+
+// console.log("After adding student:");
+// console.log(students);
+
+
+// //  Remove student
+
+ var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+
+var removeStudent = prompt("Enter student name to remove:");
+
+var position = students.indexOf(removeStudent);
+
+if (position !== -1) {
+    students.splice(position, 1);
+    console.log(removeStudent + " has been removed.");
+} else {
+    console.log(removeStudent + " is not found.");
+}
+console.log("After removing student:");
+console.log(students);
+
+
+// //  Count students
+//  var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+// console.log("Total students: " + students.length);
+
+
+// //  Display names in uppercase
+
+//  var students = ["Ali", "Ahmed", "Sara", "Ayesha", "Hamza"];
+// console.log("Students in Uppercase:");
+
+// for (var i = 0; i < students.length; i++) {
+//     console.log(students[i].toUpperCase());
+// }
+
+    </script>
+</body>
+</html>
